@@ -1,0 +1,127 @@
+.containerOriginalLogo{
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    padding: 40px 70px;
+    background-color: #fdeff7;
+    z-index: 1;
+}
+
+.ohtakuOriginalLogo{
+    width: 100%;
+}
+
+.arrowRed{
+    position: relative;
+}
+
+#arrowWhiteImg{
+    width: 50px;
+}
+/* 
+.card-header {
+    background-color: white;
+    border: 1px solid light-grey;
+    color: dk-grey;
+    position: relative;
+    padding: 1rem 2rem 1rem 4.3rem;
+}
+
+.fa-angle-down {
+    transition: all .2s ease-in-out;
+}
+  
+.rotate-icon {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+} */
+
+.arrowWhite{
+    position: absolute;
+    top: 0;
+    left: 6px;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 40px 70px 20px 70px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+}
+
+.navLinkRojo{
+    color: #e74134;
+    font-weight: bolder;
+}
+
+.navLink:hover {
+    color: #e74134;
+}
+
+.navbar{
+    background-color: inherit !important;
+    padding: 2rem 2.5em !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+    margin-bottom: 2em;
+}
+
+.menuBtnImg{
+    width: 40px;
+}
+
+.navbarContenedor{
+    width: 100%;
+    background-color: #fdeff7;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow-x: hidden;
+    display: block;
+}
+
+.navbar-menuMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 28px;
+}
+
+.nav-itemMobile {
+    padding: 5px 0;
+}
+
+.hrRojo{
+    border: 1px solid #e74134;
+    margin: 0 !important;
+}
+
+@media (max-width: 605px) {
+    .containerOriginalLogo{
+        padding: 28px 28px;
+    }
+
+    .navbar-menu{
+        display: none;
+    }
+}
+
+@media (min-width: 605px) {
+    .pos-f-t{
+        display: none;
+    }
+}
+

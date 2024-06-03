@@ -1,0 +1,62 @@
+.containerContacto{
+    margin-top: 80px;
+}
+
+.rowForm{
+    padding-top: 0;
+}
+
+.tituloHorario{
+    font-size: 1.8em;
+    color: #e74134;
+}
+
+.infoHorario{
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+.horarioContainer{
+    flex-direction: column;
+}
+
+.tituloForm{
+    font-size: 1.3em;
+    color: #e74134;
+    font-weight: 200;
+}
+
+.casillasForm{
+    background-color: white;
+    border: 1px solid #e74134;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btnFormText{
+    font-size: 0.8em;
+    width: fit-content;
+}
+
+.btnReservar{
+    margin-right: 20px;
+}
+
+@media (max-width: 605px) {
+    .containerContacto{
+        margin-top: 120px;
+    }
+
+    .btnFormText{
+        margin-top: 0;
+        margin-bottom: 10vw;
+    }
+
+    .btnForm{
+        font-size: 1.6em !important;
+    }
+
+    .iconArrow{
+        width: 5vw;
+    }
+}

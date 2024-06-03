@@ -1,0 +1,87 @@
+.RowCupones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+.cuponesCajaContainer{
+    width: 350px;
+    margin: 1vw;
+    position: relative;
+}
+
+.cuponesCaja{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* padding: 0 1vw 1vw 1vw; */
+}
+
+.btnCupones{
+    font-size: 1.2em;
+    position: absolute;
+    left: 20px;
+    bottom: 85px;
+}
+
+.btnCupones:hover{
+    color: #e74134;
+}
+
+.iconArrowCupones{
+    width: 1vw;
+}
+
+.footerContainerReservar{
+    margin-top: 100px;
+}
+
+.btnReservar{
+    margin-left: 2.5vw;
+    width: 270px;
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+a.btnReservar:hover {
+    color: #e74134;
+}
+
+@media (max-width: 950px) {
+    .RowCupones{
+        margin-top: 15vw;
+    }
+}
+
+@media (max-width: 605px) {
+    .RowCupones{
+        margin-top: 36vw;
+    }
+
+    .cuponesCaja{
+        padding: 0;
+    }
+
+    .cuponesCaja{
+        padding: 3vw;
+    }
+
+    .btnCupones{
+        font-size: 5vw;
+        width: 50vw;
+        left: 25px;
+        bottom: 85px;
+    }
+
+    .btnReservar{
+        font-size: 6vw;
+        padding-top: 0 !important;
+    }
+}

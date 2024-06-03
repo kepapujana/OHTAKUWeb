@@ -1,0 +1,105 @@
+body{
+    text-decoration: none;
+    background-color: #fdeff7 !important;
+    padding-bottom: 20vw;
+}
+
+/* .col-sm-8{
+    background-color: rgb(208, 255, 0);
+} */
+
+.col-sm-4{
+    /* background-color: rgb(208, 255, 0); */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 0 0 !important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+    max-width: 75vw !important;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 100px;
+}
+
+.tituloIndex{
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 1;
+}
+
+.textoCorrido{
+    font-weight: 200;
+}
+
+.btnRed{
+    font-size: 1.5em;
+    border: none;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e74134;
+    background-color: inherit;
+    margin-top: 20px;
+}
+
+.btnRed:hover{
+    text-decoration: underline !important;
+}
+
+.btnSaberMas{
+    justify-content: flex-start !important;
+}
+
+.iconArrow{
+    width: 18px;
+}
+
+.narutoImg{
+    height: 23vw;
+}
+
+@media (max-width: 605px) {
+    .narutoImg{
+        height: 35vh;
+    }
+
+    .col-sm-4{
+        justify-content: center;
+        padding-right: 3em !important;
+        padding-bottom: 1.5em;
+    }
+
+    .row{
+        flex-wrap: wrap-reverse !important;
+        padding-top: 100px;
+    }
+
+    .textoCorrido{
+        font-size: 1.5em;
+    }
+
+    .tituloIndex{
+        margin-bottom: 23px;
+    }
+
+    .btnRed{
+        font-size: 2em;
+    }
+
+    body{
+        padding-bottom: 30vw;
+    }
+}

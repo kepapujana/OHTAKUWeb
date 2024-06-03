@@ -1,0 +1,187 @@
+.localImgContainer{
+    height: 200px;
+    width: 100vw;
+    background-image:
+    url("../assets/images/sobreOhtaku/ohtaku2-local.jpeg");
+    background-position:center;
+	background-attachment: contain;
+	background-size: cover;
+    margin: auto;
+    position: absolute;
+    left: 0;
+}
+
+.localImgContainer:before{
+    content: "";
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.4;
+    mix-blend-mode:soft-light;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.contenedorSobreOH{
+    padding-top: 34vh;
+}
+
+.col-sm-3{
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm-2{
+    display: block;
+}
+
+.olasIlusImg{
+    width: 9vw;
+    margin-left: 20px;
+}
+
+.rowTotoro{
+    display: none;
+}
+
+.nuestraFiloTitulo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.titularOhtaku{
+    font-size: 1.8em;
+    display: flex;
+    justify-content: centerx;
+}
+
+.subtitularOhtaku{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.nuestraFiloTexto{
+    display: flex;
+}
+
+.textoCorrido{
+    mix-blend-mode:multiply;
+}
+
+.rojoTextoC{
+    color: #e74134;
+    mix-blend-mode:multiply;
+}
+
+.divTotoro{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.totoroImg{
+    height: 30vw;
+}
+
+.olasBack{
+    height: 600px;
+    width: 100vw;
+    /* background-color: aqua; */
+    background-image:
+    url("../assets/images/sobreOhtaku/olasBckground.svg");
+    background-position:right;
+	background-attachment: contain;
+	background-size: cover;
+    margin: auto;
+    position: absolute;
+    padding-left: 20px;
+    top: 140vh;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.nuestrosValores{
+    margin-top: 20vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.col-sm-3 {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.ganbareTexto{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.textoConclusion{
+    align-items: center !important;
+}
+
+@media (max-width: 605px) {
+    .localImgContainer{
+        height: 300px;
+    }
+
+    .localImgContainer:before{
+        height: 300px;
+    }
+
+    .contenedorSobreOH{
+        padding-top: 47vh;
+    }
+
+    .olasIlusImg{
+        width: 19vw;
+        margin: 28px 0;
+    }
+
+    .nuestraFiloTitulo{
+        flex-wrap: wrap;
+    }
+
+    .nuestraFiloTexto{
+        flex-wrap: wrap;
+    }
+
+    .totoroImg{
+        height: 50vw;
+        padding-bottom: 20px;
+    }
+
+    .rowTotoro{
+        flex-wrap: wrap !important;
+    }
+
+    .titularOhtaku{
+        text-align: left;
+        font-size: 2em;
+        padding-bottom: 0 !important;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .subtitularOhtaku{
+        font-size: 24px;
+    }
+
+    .olasBack{
+        top: 360vh;
+    }
+
+    .nuestrosValores{
+        margin-top: 20vh;
+        flex-wrap: wrap;
+    }
+
+    .ganbareTexto{
+        font-size: 28px;
+    }
+}

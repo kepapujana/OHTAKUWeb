@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OHTAKU</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.svg">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="./scripts/form.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NavBar -->
+    <nav>
+        <div class="containerOriginalLogo">
+            <img src="./assets/images/index/logo.svg" class="ohtakuOriginalLogo" alt="ohtakuOriginalLogo">
+        </div>
+
+        <nav class="navbarContenedor">
+            <div class="pos-f-t">
+                <nav class="navbar">
+                    <button class="navbar-toggler arrowRed" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <img class="menuBtnImg" src="./assets/icons/menu.svg" alt="menuHamburger">
+                      <span class="arrowWhite"><img id="arrowWhiteImg" src="./assets/icons/arrowWhite.svg" alt="arrowWhite"></span>
+                    </button>
+                </nav>
+
+                <div class="collapse backgroundNav" id="navbarToggleExternalContent">
+                    <ul class="navbar-menuMobile">
+                        <li class="nav-itemMobile">
+                            <a class="navLink" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-itemMobile">
+                            <a class="navLink" href="./ohtaku.html">OHTAKU</a>
+                        </li>
+                        <li class="nav-itemMobile">
+                            <a class="navLinkRojo" href="./digimenu.html">DIGIMENU</a>
+                        </li>
+                        <li class="nav-itemMobile">
+                            <a class="navLink" href="./journal.html">JOURNAL</a>
+                        </li>
+                        <li class="nav-itemMobile">
+                            <a class="navLink" href="./reservar.html">RESERVAR</a>
+                        </li>
+                        <li class="nav-itemMobile">
+                            <a class="navLink" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <hr class="hrRojo"/>
+                </div>
+            </div>
+            
+            <ul class="navbar-menu">
+                <li class="nav-item">
+                    <a class="navLink" href="./index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navLink" href="./ohtaku.html">OHTAKU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navLinkRojo" href="./digimenu.html">DIGIMENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navLink" href="./journal.html">JOURNAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navLink" href="./reservar.html">RESERVAR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navLink" href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+
+    <!-- Contenido -->
+    <section class="containerMenu">
+        <h1 class="titularMenu">ENTRANTES</h1>
+        <section class="entrantesMenu">
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/baoh.png" class="fotoComida" alt="baohPanceta">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida">Ba-Ohtaku de panceta de cerdo</h2>
+                    <p class="ingredientes">Nuestra panceta de cerdo, hoisin, cebolla frita y verde</p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">5,80€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/baoh2.png" class="fotoComida fotoComida2" alt="baohSalmon">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida">Ba-Ohtaku de Salmón</h2>
+                    <p class="ingredientes">Salmón sashimi, sesamo, Chili Mayo, huevo frito codorniz y rúcula</p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">5,95€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/gyozas-pollo.png" class="fotoComida fotoComida3" alt="gyozas-pollo">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida">Gyozas de pollo al curry (4 uds.)</h2>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">7,50€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/gyozas.png" class="fotoComida" alt="gyozasVeganas">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida">Gyozas veganas (4 uds.)</h2>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">7,50€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/pulpo.png" class="fotoComida fotoComida4" alt="baohSalmon">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida">Takoyaki: Buñuelos de pulpo (4 uds.)</h2>
+                    <p class="ingredientes">Mayo, salsa tonkatsu y katsuobushi (opción picante)</p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">7,50€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+        <h1 class="titularMenu titularMenu2">RAMENS</h1>
+        <section class="entrantesMenu">
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/ramen-paitan.png" class="fotoComida fotoComida5" alt="baohPanceta">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Tori paitan</h2>
+                    <p class="ingredientes ingredientesRamen">Ramen sencillo. <br>
+                        Base a elegir: <i>KOJI MISO</i> o base <i>SOJA</i>
+                    </p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">12,45€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/ramen-mazesoba.png" class="fotoComida fotoComida5" alt="baohSalmon">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Maze soba</h2>
+                    <p class="ingredientes ingredientesRamen">Ramen seco picante de Taiwan. Noodles, boloñesa picante de cerdo, cebolleta, cebollino chino, fish powder y huevo 64º
+                        <br>Maze kudasai!!!
+                    </p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">13,45€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/ramen-vegeta.png" class="fotoComida fotoComida5" alt="gyozasVeganas">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Vegeta</h2>
+                    <p class="ingredientes ingredientesRamen">Caldo de verduras y algas con base de SOJA. <br>
+                        Menma, alga wakame, cebolleta fresca, Heura, verduras del día y aceite de trufa
+                    </p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">13,45€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/ramen-tantanmen.png" class="fotoComida fotoComida5" alt="baohSalmon">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">TanTanMen</h2>
+                    <p class="ingredientes ingredientesRamen">Base de <i>MISO</i> y sésamo. <br>
+                        Textura cremosa con picada de cerdo picante</p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">13,45€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/ramen-miso.png" class="fotoComida fotoComida5" alt="baohSalmon">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Kare miso</h2>
+                    <p class="ingredientes ingredientesRamen">Toripaitan al curry madrás, ligero picante, noodles finos, cebolleta frescas, chashu, verduras del día, rodaja de lima</p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">13,45€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                    <img src="./assets/images/digimenu/ramen-paitan.png" class="fotoComida fotoComida5" alt="gyozas-pollo">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Truffle paitan</h2>
+                    <p class="ingredientes ingredientesRamen">Toripaitan, base de soja con paté de trufa negra.
+                    </p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">13,95€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <h1 class="titularMenu titularMenu2">SUSHIS Y TARTAR</h1>
+        <section class="entrantesMenu">
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Tartar de atún estrellado picante</h2>
+                    <p class="ingredientes ingredientesSushis">Con huevo 64º, aceite de sésamo, shichimi togarashi y pan de gambas</p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">22,00€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+
+            <article class="entrante">
+                <div class="fotoComidaGrupo">
+                    <img src="./assets/images/digimenu/olasiv.png"  class="fotoFondoComida" alt="fotoFondoComida">
+                </div>
+
+                <div class="textoGrupo">
+                    <h2 class="tituloComida tituloRamen">Atún bluefin, yema y trufa</h2>
+                    <p class="ingredientes ingredientesSushis"></p>
+
+                    <div class="precioComida">
+                        <p class="precioComidaTexto">22,00€</p>
+                        <hr class="hrPrecio">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footerContainer footerContainerReservar">
+        <section class="temasLegalesContainer">
+            <div class="rights">
+                <p>© 2024 OHTAKU. ALL RIGHTS RESERVED.</p>
+            </div>
+
+            <div class="temasLegales">
+                <a class="temasLegalesLinks" href="">POLÍTICA DE PRIVACIDAD.</a>
+                <a class="temasLegalesLinks" href="">POLÍTICA DE COOKIES.</a>
+                <a class="temasLegalesLinks" href="">AVISO LEGAL.</a>
+            </div>
+        </section>
+        <section class="infoRestaurant">
+            <div class="contactoFooter">
+                CONTACTO
+                <a class="contactoLinks" href="./contacto.html"><img src="./assets/icons/email.svg" alt=""></a>
+                <a class="contactoLinks" href="https://www.instagram.com/ohtaku.bilbao/?hl=es" target="_blank"><img src="./assets/icons/instagram.svg" alt=""></a>
+            </div>
+
+            <div class="direccionOHTAKU">
+                <p>HEROS KALEA 14, 48009 BILBO, BIZKAIA</p>
+            </div>
+
+            <div class="reservarsAqui">
+                <a class="reservarsAquiLink" href="./reservar.html"><p>RESERVAS AQUI</p></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

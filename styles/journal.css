@@ -1,0 +1,51 @@
+.RowJournal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+.journalCajaContainer{
+    width: 350px;
+    margin: 1vw;
+    position: relative;
+}
+
+.titularJournal{
+    padding: 0;
+    width: 88%;
+    text-align: left;
+    color: #fdeff7;
+    bottom: 13px;
+    left: 13px;
+    font-size: 1.3em;
+    position: absolute;
+}
+
+.titularJournal:hover{
+    color: #fdeff7;
+}
+
+.journalFotos{
+    width: 100%;
+}
+
+@media (max-width: 950px) {
+    .RowJournal{
+        margin-top: 15vw;
+    }
+}
+
+@media (max-width: 605px) {
+    .RowJournal{
+        margin-top: 36vw;
+    }
+
+    .journalFotos{
+        padding: 0;
+    }
+
+    .titularJournal{
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,111 @@
+.footerContainer{
+    width: 100%;
+    margin-top: 150px;
+    font-size: 1em;
+    /* margin-right: auto;
+    margin-left: auto;
+    max-width: 75vw;
+    padding: 0 30px; */
+}
+
+.temasLegalesContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.temasLegales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.temasLegalesLinks{
+    list-style-type: none;
+    font-weight: 200;
+    padding-left: 20px !important;
+    text-decoration: none;
+    color: black;
+}
+
+.temasLegalesLinks:hover {
+    color: #e74134;
+}
+
+.infoRestaurant{
+    width: 100%;
+    font-size: 1em;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactoFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactoLinks{
+    list-style-type: none;
+    font-weight: 200;
+    padding-left: 20px !important;
+    text-decoration: none;
+    color: black;
+}
+
+.direccionOHTAKU{
+    font-weight: 200;
+}
+
+.reservarsAquiLink{
+    list-style-type: none;
+    font-weight: 200;
+    color: #e74134;
+}
+
+.reservarsAquiLink:hover{
+    text-decoration: underline !important;
+    color: #e74134;
+}
+
+@media (max-width: 605px) {
+    .temasLegalesContainer{
+        flex-wrap: wrap;
+    }
+
+    .temasLegales{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-bottom: 25px;
+    }
+
+    .temasLegalesLinks{
+        padding-left: 0 !important;
+        padding-right: 110px !important;
+        padding-bottom: 10px;
+    }
+
+    .footerContainer{
+        font-size: 1.4em;
+    }
+
+    .infoRestaurant{
+        flex-wrap: wrap;
+    }
+
+    .infoRestaurant > div{
+        padding-right: 20px !important;
+    }
+
+    .rights{
+        padding-bottom: 45px;
+    }
+
+    .contactoFooter{
+        padding-bottom: 10px;
+    }
+
+    .direccionOHTAKU{
+        padding-bottom: 10px;
+    }
+}

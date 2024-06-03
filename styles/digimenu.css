@@ -1,0 +1,164 @@
+.containerMenu{
+    margin: 0 0 0 1vw;
+    padding-top: 12vh;
+}
+
+@font-face {
+    font-family: OHTAKU Regular;
+    src: url(../assets/typographies/ohtaku-Regular.otf);
+}
+
+.titularMenu{
+    font-family: OHTAKU Regular;
+    color: #e74134;
+    font-size: 43px;
+    margin: 0 0 0 40px;
+}
+
+.titularMenu2{
+    margin: 60px 0 0 40px;
+}
+
+.entrantesMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.entrante{
+    width: 550px;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.fotoComidaGrupo{
+    position: relative;
+}
+
+.fotoFondoComida{
+    width: 260px;
+}
+
+.fotoComida{
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 240px;
+}
+
+.fotoComida2{
+    top: 10px;
+}
+
+.fotoComida3{
+    width: 235px;
+    left: 19px;
+}
+
+.fotoComida4{
+    width: 260px;
+    transform: rotate(25deg);
+    left: 14px;
+    top: 20px;
+}
+
+.fotoComida5{
+    width: 230px;
+    left: 28px;
+}
+
+.textoGrupo{
+    margin: 8px 25px;
+}
+
+.tituloComida{
+    font-size: 25px;
+    font-weight: 400;
+    height: 60px;
+}
+
+.tituloRamen{
+    height: fit-content;
+}
+
+.ingredientes{
+    font-size: 16px;
+    font-weight: 200;
+    height: 60px;
+}
+
+.ingredientesRamen{
+    height: 130px;
+}
+
+.ingredientesSushis{
+    height: 60px;
+}
+
+.precioComidaTexto{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+.hrPrecio{
+    border: 1px solid #e74134;
+
+}
+
+@media (max-width: 1200px) {
+    .tituloComida{
+        height:fit-content;
+    }
+    
+    .ingredientes{
+        height: fit-content;
+    }
+}
+
+@media (max-width: 605px) {
+    .containerMenu{
+        margin: 0;
+    }
+
+    .titularMenu{
+        font-size: 10vw;
+        margin-left: 5vw;
+    }
+
+    .entrantesMenu{
+        margin-top: 4vw;
+    }
+
+    .tituloComida{
+        font-size: 6.5vw;
+    }
+
+    .textoGrupo{
+        margin: 2.5vw 5vw;
+    }
+    
+    .ingredientes{
+        font-size: 5vw;
+    }
+    
+    .precioComidaTexto{
+        font-size: 6vw;
+        margin-top: 1vw;
+    }
+
+
+    .fotoFondoComida{
+        width: 42vw;
+    }
+
+    .fotoComida{
+        width: 40vw;
+    }
+
+    .entrante{flex-wrap: wrap;
+    }
+}
