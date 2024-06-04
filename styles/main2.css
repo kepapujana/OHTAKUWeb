@@ -1,0 +1,8 @@
+@font-face {
+    font-family: PP Nikkei Maru;
+    src: url(../assets/typographies/PPNikkeiMaru-Regular.otf);
+}
+
+body{
+    font-family: PP Nikkei Maru !important;
+}
